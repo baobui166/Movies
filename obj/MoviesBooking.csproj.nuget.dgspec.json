@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MoviesBooking\\MoviesBooking.csproj": {}
+    "C:\\Users\\ADmin\\source\\repos\\Movies\\MoviesBooking.csproj": {}
   },
   "projects": {
-    "D:\\MoviesBooking\\MoviesBooking.csproj": {
+    "C:\\Users\\ADmin\\source\\repos\\Movies\\MoviesBooking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MoviesBooking\\MoviesBooking.csproj",
+        "projectUniqueName": "C:\\Users\\ADmin\\source\\repos\\Movies\\MoviesBooking.csproj",
         "projectName": "MoviesBooking",
-        "projectPath": "D:\\MoviesBooking\\MoviesBooking.csproj",
-        "packagesPath": "C:\\Users\\MSI GAMING\\.nuget\\packages\\",
-        "outputPath": "D:\\MoviesBooking\\obj\\",
+        "projectPath": "C:\\Users\\ADmin\\source\\repos\\Movies\\MoviesBooking.csproj",
+        "packagesPath": "C:\\Users\\ADmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADmin\\source\\repos\\Movies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MSI GAMING\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
